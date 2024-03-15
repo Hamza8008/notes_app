@@ -5,8 +5,8 @@ class AddNoteBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Color(0xff2E2D2E),
+    return Column(
+      children: [],
     );
   }
 }
