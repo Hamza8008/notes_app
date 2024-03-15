@@ -9,7 +9,7 @@ class CustomAppBar extends StatelessWidget {
     return Row(
       children: [
         SizedBox(
-          height: 100,
+          height: 80,
         ),
         Text(
           'Notes',
@@ -19,7 +19,7 @@ class CustomAppBar extends StatelessWidget {
           ),
         ),
         Spacer(
-          flex: 2,
+          flex: 3,
         ),
         CustomSearchIcon(),
       ],
