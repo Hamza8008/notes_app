@@ -13,7 +13,7 @@ class NotesView extends StatelessWidget {
       create: (context) => NotesCubitCubit(),
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Color(0xff55EED9),
+          backgroundColor: const Color(0xff55EED9),
           onPressed: () {
             showModalBottomSheet(
                 isScrollControlled: true,
@@ -25,7 +25,8 @@ class NotesView extends StatelessWidget {
                   return const AddNoteBottomSheet();
                 });
           },
-          child: Icon(
+          // ignore: sort_child_properties_last
+          child: const Icon(
             Icons.add,
             color: Colors.black,
           ),
