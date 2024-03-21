@@ -40,7 +40,24 @@ dependencies:
   font_awesome_flutter: ^10.7.0
   flutter_bloc: ^8.1.4
   modal_progress_hud_nsn: ^0.5.1
-
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "Assets/Fonts/icons/35444193.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "Assets/Fonts/icons/35444193.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "Assets/Fonts/icons/35444193.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "Assets/Fonts/icons/35444193.jpg"
 dev_dependencies:
   hive_generator: ^2.0.1
   build_runner: ^2.4.8

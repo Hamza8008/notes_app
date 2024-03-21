@@ -28,6 +28,7 @@ class NotesApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: NotesView(),
+      title: 'Note App',
     );
   }
 }
